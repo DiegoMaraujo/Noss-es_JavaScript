@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01 Js</title>
+        <style>
+            body{
+                background-color: aquamarine; /* comentario em css*/
+                font:normal 15pt Arial;
+            }
+            h1{
+                color:rgb(71, 61, 61)
+            }
+        </style>
+</head>
+<body>
+    <h1>olá, mundo !</h1>
+    <p>já me livrei da maldicõa</p> <!--comentario em html -->
+
+<script>
+  // var n1 = Number.parseFloat(window.prompt('Digite num numero: '))//convertendo string para numeo inteiro
+  // var n2 = Number.parseFloat(window.prompt('Digite outro numero: '))//retorna uma string
+  var n1 = Number(window.prompt('Digite num numero: '))//convertendo string para numeo inteiro
+   var n2 = Number(window.prompt('Digite outro numero: '))//o javaScript decide se é float ou inteiro
+   var s = n1 + n2
+   window.alert(`A soma de ${n1} e ${n2} são ${s}`)//usando o templete de string
+   //window.alert('A soma dos dois numeros são: ' + s)//soma dos 2 numeros
+  // window.alert('A soma dos dois numeros são: ' + s.toString)//converção da soma dos numeros para string
+   //window.alert('A soma dos dois numeros são: ' + String(s))//converção da soma dos numeros para string
+   //(number + number) para adição
+   //(string + string) para concatenação
+</script>
+
+</body>
+</html>

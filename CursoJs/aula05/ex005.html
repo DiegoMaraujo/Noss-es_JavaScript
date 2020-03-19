@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com dom</title>
+    <style>
+        body{
+            background:rgb(50, 50, 148);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em javaScript.</p>
+    <div id ="msg">Clique em min</div>
+    <!--<div class="msg">Clique em min</div>-->
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write('Esta escrito assim: ' + p1.innerText)
+
+        /*
+        window.alert(p1.innerHTML)//mostrando na tela com o alert
+        p1.style.color = 'black'
+        corpo.style.background = 'red'
+        var d = window.document.getElementById("msg") // pegando por Id e o primeiro elemento
+        d.style.background = "green"
+        d.innerText = 'estou aguardando ...'//mostrando na tela
+       window.document.getElementById("msg").innerText ="Ola! "//mostrando na tela
+        var d = window.document.getElementsByName("msg")[0] // pegando por nome e o primeiro elemento
+       var d = window.document.getElementsByClassName("msg")[0] // pegando por classe e o primeiro elemento
+       d.innerText ="ola !" // mostrando na tela 
+       var d = window.document.querySelector('div#msg')//por Id
+       var d = window.document.querySelector('div.msg')//por class
+       d.style.background ="blue" //mostrando na tela 
+       */
+    </script>
+
+</body>
+</html>

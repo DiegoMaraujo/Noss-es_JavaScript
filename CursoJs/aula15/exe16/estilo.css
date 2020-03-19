@@ -1,0 +1,27 @@
+body{
+    background: cadetblue;
+    font: normal 15pt Arial;
+}
+header{
+    color:  white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(56, 52, 52);
+}
+footer{
+    color: coral;
+    text-align: center;
+    font-style: italic;
+}
+input{
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+}
+
