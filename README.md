@@ -1,2 +1,2 @@
-# Noss-es_JavaScript
+# Noções_JavaScript
 O básico em javaScript 
