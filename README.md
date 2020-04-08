@@ -1,2 +1,2 @@
 # Noções_JavaScript
-O básico em javaScript 
+O básico em javaScript do curso gustavo guanabara
